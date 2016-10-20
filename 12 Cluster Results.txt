@@ -1,0 +1,677 @@
+------------------------------------------------------------
+---------------- 12  CLUSTERS: -----------------------
+Material ranking on 12 - cluster model:
+
+
+  # 1 :  Tungsten Carbides
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 6 :  100.0 %
+
+  # 2 :  Boron Carbide
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 3 :  Zinc die-casting alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 4 :  Cast Al-alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 5 :  Age-hardening wrought Al-alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 6 :  Cast magnesium alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 7 :  Wrought magnesium alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 5 :  100.0 %
+
+  # 8 :  Aluminum/Silicon carbide composite
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 1 :  100.0 %
+
+  # 9 :  Silicon carbide
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 10 :  Non age-hardening wrought Al-alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 11 :  Tungsten Alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 12 :  Cast iron, gray
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 13 :  Low Alloy Steel
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 14 :  Stainless Steel
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 15 :  Low Carbon Steel
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 16 :  Brass
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 17 :  Copper
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 18 :  Titanium Alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 19 :  Aluminum nitride
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 20 :  Nikel
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 21 :  Cast iron, ductile (nodular)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 22 :  Zirconia
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 23 :  Bronze
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 24 :  Medium Carbon Steel
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 25 :  Silicone elastomers (SI, Q)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 26 :  Cement
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 27 :  Lead Alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 28 :  Metal Foam
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 29 :  High Carbon Steel
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 30 :  Sand Stone
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 31 :  Commercially Pure Zinc
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 32 :  Silicon nitride
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 33 :  Carbon black reinforced styrene butadiene rubber (SBR)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 34 :  Nickel-based superalloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 35 :  Epoxies
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 36 :  Acrylonitrile butadiene styrene (ABS)
+
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 3 :  100.0 %
+
+  # 37 :  Alumina
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 38 :  Bamboo
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 7 :  100.0 %
+
+  # 39 :  Borosilicate Glass
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 40 :  Brick
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 41 :  Butyl rubber (IIR)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 42 :  Cellulose polymers (CA)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 43 :  Ceramic Foam
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 44 :  CFRP, epoxy matrix (isotropic)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 45 :  Comercially Pure Lead
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 2 :  100.0 %
+
+  # 46 :  Commercially Pure Titanium
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 47 :  Concrete
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 48 :  Cork
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 49 :  Dough (Bulk) molding compound, DMC (BMC), polyester matrix
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 50 :  Ethylene vinyl acetate (EVA)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 51 :  Flexible Polymer Foam (LD)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 52 :  Flexible Polymer Foam (MD)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 53 :  Flexible Polymer Foam (VLD)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 54 :  GFRP, epoxy matrix (isotropic)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 55 :  Glass Ceramic
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 3 :  100.0 %
+
+  # 56 :  Gold
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 3 :  100.0 %
+
+  # 57 :  Granite
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 58 :  Hardwood: oak, across grain
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 59 :  Hardwood: oak, along grain
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 60 :  Ionomer (I)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 61 :  Leather
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 62 :  Lime Stone
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 8 :  100.0 %
+
+  # 63 :  Marble
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 64 :  Natural Rubber
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 6 :  100.0 %
+
+  # 65 :  Nickel-chromium alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+
+  # 66 :  Paper and Cardboard
+Maximum distribution in one cluster:  99.5 %
+    Cluster # 0 :  99.5 %
+
+    Cluster # 8 :  0.5 %
+
+  # 67 :  Phenolics
+Maximum distribution in one cluster:  84.0 %
+    Cluster # 3 :  84.0 %
+
+    Cluster # 6 :  2.5 %
+    Cluster # 7 :  13.5 %
+
+  # 68 :  Plaster of Paris
+Maximum distribution in one cluster:  77.5 %
+    Cluster # 0 :  77.5 %
+
+    Cluster # 8 :  22.5 %
+
+  # 69 :  Plywood
+Maximum distribution in one cluster:  74.5 %
+    Cluster # 3 :  74.5 %
+
+    Cluster # 6 :  25.5 %
+
+  # 70 :  Polyamides (Nylons, PA)
+Maximum distribution in one cluster:  74.5 %
+    Cluster # 4 :  25.5 %
+
+    Cluster # 9 :  74.5 %
+
+  # 71 :  Polycarbonate (PC)
+Maximum distribution in one cluster:  72.5 %
+    Cluster # 7 :  27.5 %
+    Cluster # 8 :  72.5 %
+
+  # 72 :  Polychloroprene (Neoprene, CR)
+Maximum distribution in one cluster:  72.5 %
+    Cluster # 1 :  27.5 %
+
+    Cluster # 10 :  72.5 %
+
+  # 73 :  Polyester
+Maximum distribution in one cluster:  72.0 %
+    Cluster # 0 :  28.0 %
+
+    Cluster # 8 :  72.0 %
+
+  # 74 :  Polyetheretherketone (PEEK)
+Maximum distribution in one cluster:  70.5 %
+    Cluster # 3 :  70.5 %
+
+    Cluster # 6 :  19.0 %
+    Cluster # 7 :  10.5 %
+
+  # 75 :  Polyethylene (PE)
+Maximum distribution in one cluster:  62.5 %
+    Cluster # 0 :  37.5 %
+
+    Cluster # 8 :  62.5 %
+
+  # 76 :  Polyethylene terephthalate (PET)
+Maximum distribution in one cluster:  62.0 %
+    Cluster # 0 :  62.0 %
+
+    Cluster # 8 :  38.0 %
+
+  # 77 :  Polyhydroxyalkanoates (PHA, PHB)
+Maximum distribution in one cluster:  61.5 %
+    Cluster # 1 :  38.5 %
+
+    Cluster # 10 :  61.5 %
+
+  # 78 :  Polyisoprene rubber (IIR)
+Maximum distribution in one cluster:  61.0 %
+    Cluster # 1 :  39.0 %
+
+    Cluster # 10 :  61.0 %
+
+  # 79 :  Polylactide (PLA)
+Maximum distribution in one cluster:  59.5 %
+    Cluster # 7 :  59.5 %
+    Cluster # 8 :  40.5 %
+
+  # 80 :  Polymethyl methacrylate (Acrylic, PMMA)
+Maximum distribution in one cluster:  59.5 %
+    Cluster # 6 :  59.5 %
+
+    Cluster # 10 :  40.5 %
+
+  # 81 :  Polyoxymethylene (Acetal, POM)
+Maximum distribution in one cluster:  57.5 %
+    Cluster # 4 :  42.5 %
+
+    Cluster # 9 :  57.5 %
+
+  # 82 :  Polypropylene (PP)
+Maximum distribution in one cluster:  57.5 %
+    Cluster # 4 :  42.5 %
+
+    Cluster # 11 :  57.5 %
+  # 83 :  Polystyrene (PS)
+Maximum distribution in one cluster:  56.0 %
+    Cluster # 3 :  56.0 %
+
+    Cluster # 7 :  44.0 %
+
+  # 84 :  Polytetrafluoroethylene (Teflon, PTFE)
+Maximum distribution in one cluster:  55.5 %
+    Cluster # 2 :  34.5 %
+
+    Cluster # 5 :  55.5 %
+
+    Cluster # 11 :  10.0 %
+  # 85 :  Polyurethane
+Maximum distribution in one cluster:  55.5 %
+    Cluster # 4 :  55.5 %
+
+    Cluster # 9 :  44.5 %
+
+  # 86 :  Polyurethane (tpPUR)
+Maximum distribution in one cluster:  54.5 %
+    Cluster # 1 :  45.5 %
+
+    Cluster # 10 :  54.5 %
+
+  # 87 :  Polyvinylchloride (tpPVC)
+Maximum distribution in one cluster:  53.0 %
+    Cluster # 3 :  53.0 %
+
+    Cluster # 6 :  47.0 %
+
+  # 88 :  Rigid Polymer Foam (HD)
+Maximum distribution in one cluster:  51.5 %
+    Cluster # 1 :  27.5 %
+
+    Cluster # 6 :  21.0 %
+
+    Cluster # 10 :  51.5 %
+
+  # 89 :  Rigid Polymer Foam (LD)
+Maximum distribution in one cluster:  49.0 %
+    Cluster # 1 :  36.5 %
+
+    Cluster # 6 :  14.5 %
+
+    Cluster # 10 :  49.0 %
+
+  # 90 :  Rigid Polymer Foam (MD)
+Maximum distribution in one cluster:  48.0 %
+    Cluster # 1 :  23.0 %
+
+    Cluster # 4 :  29.0 %
+
+    Cluster # 9 :  48.0 %
+
+  # 91 :  Sheet molding compound, SMC, polyester matrix
+Maximum distribution in one cluster:  46.5 %
+    Cluster # 2 :  11.5 %
+
+    Cluster # 4 :  20.5 %
+
+    Cluster # 9 :  21.5 %
+
+    Cluster # 11 :  46.5 %
+  # 92 :  Silica Glass
+Maximum distribution in one cluster:  45.0 %
+    Cluster # 1 :  45.0 %
+
+    Cluster # 9 :  36.5 %
+    Cluster # 10 :  18.5 %
+
+  # 93 :  Silicon
+Maximum distribution in one cluster:  42.5 %
+    Cluster # 1 :  23.5 %
+
+    Cluster # 4 :  34.0 %
+
+    Cluster # 9 :  42.5 %
+
+  # 94 :  Silver
+Maximum distribution in one cluster:  42.0 %
+    Cluster # 1 :  22.5 %
+
+    Cluster # 6 :  42.0 %
+
+    Cluster # 10 :  35.5 %
+
+  # 95 :  Slate
+Maximum distribution in one cluster:  39.0 %
+    Cluster # 1 :  24.0 %
+
+    Cluster # 6 :  39.0 %
+
+    Cluster # 10 :  37.0 %
+
+  # 96 :  Soda-lime Glass
+Maximum distribution in one cluster:  38.5 %
+    Cluster # 4 :  34.5 %
+
+    Cluster # 9 :  38.5 %
+
+    Cluster # 11 :  27.0 %
+  # 97 :  Softwood: pine, across grain
+Maximum distribution in one cluster:  34.5 %
+    Cluster # 1 :  34.5 %
+
+    Cluster # 4 :  24.5 %
+
+    Cluster # 9 :  30.0 %
+    Cluster # 10 :  4.5 %
+    Cluster # 11 :  6.5 %
+  # 98 :  Softwood: pine, along grain
+Maximum distribution in one cluster:  33.5 %
+    Cluster # 1 :  23.5 %
+
+    Cluster # 4 :  29.5 %
+
+    Cluster # 9 :  33.5 %
+
+    Cluster # 11 :  13.5 %
+  # 99 :  Starch-based thermoplastics (TPS)
+Maximum distribution in one cluster:  33.5 %
+    Cluster # 1 :  28.0 %
+
+    Cluster # 6 :  26.0 %
+
+    Cluster # 9 :  12.5 %
+    Cluster # 10 :  33.5 %
+
+  # 100 :  Tin
+Maximum distribution in one cluster:  32.5 %
+    Cluster # 1 :  24.5 %
+
+    Cluster # 4 :  19.0 %
+
+    Cluster # 9 :  32.5 %
+    Cluster # 10 :  24.0 %
+
+
+
+Materials in each cluster:
+  Cluster # 0 :
+    Material  Acrylonitrile butadiene styrene (ABS) :  1.99820161854 %
+    Material  Bamboo :  1.99820161854 %
+    Material  Brick :  1.99820161854 %
+    Material  Butyl rubber (IIR) :  1.99820161854 %
+    Material  Carbon black reinforced styrene butadiene rubber (SBR) :  1.54860625437 %
+    Material  Cellulose polymers (CA) :  1.99820161854 %
+    Material  Cement :  0.749325606954 %
+    Material  Ceramic Foam :  1.99820161854 %
+    Material  Cork :  1.99820161854 %
+    Material  Dough (Bulk) molding compound, DMC (BMC), polyester matrix :  1.99820161854 %
+    Material  Epoxies :  1.98821061045 %
+    Material  Ethylene vinyl acetate (EVA) :  1.99820161854 %
+    Material  Flexible Polymer Foam (LD) :  1.99820161854 %
+    Material  Flexible Polymer Foam (MD) :  1.99820161854 %
+    Material  Flexible Polymer Foam (VLD) :  1.99820161854 %
+    Material  GFRP, epoxy matrix (isotropic) :  1.99820161854 %
+    Material  Hardwood: oak, across grain :  1.99820161854 %
+    Material  Hardwood: oak, along grain :  1.99820161854 %
+    Material  Ionomer (I) :  1.99820161854 %
+    Material  Leather :  1.99820161854 %
+    Material  Metal Foam :  0.559496453192 %
+    Material  Natural Rubber :  1.99820161854 %
+    Material  Paper and Cardboard :  1.99820161854 %
+    Material  Phenolics :  1.99820161854 %
+    Material  Plaster of Paris :  1.99820161854 %
+    Material  Plywood :  1.99820161854 %
+    Material  Polyamides (Nylons, PA) :  1.99820161854 %
+    Material  Polycarbonate (PC) :  1.99820161854 %
+    Material  Polychloroprene (Neoprene, CR) :  1.99820161854 %
+    Material  Polyester :  1.99820161854 %
+    Material  Polyetheretherketone (PEEK) :  1.99820161854 %
+    Material  Polyethylene (PE) :  1.99820161854 %
+    Material  Polyethylene terephthalate (PET) :  1.99820161854 %
+    Material  Polyhydroxyalkanoates (PHA, PHB) :  1.99820161854 %
+    Material  Polyisoprene rubber (IIR) :  1.99820161854 %
+    Material  Polylactide (PLA) :  1.99820161854 %
+    Material  Polymethyl methacrylate (Acrylic, PMMA) :  1.99820161854 %
+    Material  Polyoxymethylene (Acetal, POM) :  1.99820161854 %
+    Material  Polypropylene (PP) :  1.99820161854 %
+    Material  Polystyrene (PS) :  1.99820161854 %
+    Material  Polytetrafluoroethylene (Teflon, PTFE) :  1.99820161854 %
+    Material  Polyurethane :  1.99820161854 %
+    Material  Polyurethane (tpPUR) :  1.99820161854 %
+    Material  Polyvinylchloride (tpPVC) :  1.99820161854 %
+    Material  Rigid Polymer Foam (HD) :  1.99820161854 %
+    Material  Rigid Polymer Foam (LD) :  1.99820161854 %
+    Material  Rigid Polymer Foam (MD) :  1.99820161854 %
+    Material  Sheet molding compound, SMC, polyester matrix :  1.99820161854 %
+    Material  Silicone elastomers (SI, Q) :  1.2388850035 %
+    Material  Softwood: pine, across grain :  1.99820161854 %
+    Material  Softwood: pine, along grain :  1.99820161854 %
+    Material  Starch-based thermoplastics (TPS) :  1.99820161854 %
+  Cluster # 1 :
+    Material  Aluminum/Silicon carbide composite :  4.17406749556 %
+    Material  Boron Carbide :  4.97335701599 %
+    Material  Bronze :  6.92717584369 %
+    Material  Cast Al-alloys :  6.12788632327 %
+    Material  Cast iron, gray :  6.48312611012 %
+    Material  Cast magnesium alloys :  4.26287744227 %
+    Material  High Carbon Steel :  4.88454706927 %
+    Material  Low Alloy Steel :  4.88454706927 %
+    Material  Low Carbon Steel :  8.08170515098 %
+    Material  Medium Carbon Steel :  6.83836589698 %
+    Material  Silicon :  17.7619893428 %
+    Material  Silicon carbide :  7.99289520426 %
+    Material  Tungsten Alloys :  4.08525754885 %
+    Material  Tungsten Carbides :  4.35168738899 %
+    Material  Wrought magnesium alloys :  3.99644760213 %
+    Material  Zinc die-casting alloys :  4.17406749556 %
+  Cluster # 2 :
+    Material  Copper :  23.6301369863 %
+    Material  Gold :  68.4931506849 %
+    Material  Non age-hardening wrought Al-alloys :  7.87671232877 %
+  Cluster # 3 :
+    Material  Comercially Pure Lead :  15.6739811912 %
+    Material  Commercially Pure Titanium :  15.6739811912 %
+    Material  Lead Alloys :  11.0501567398 %
+    Material  Nickel-based superalloys :  13.1661442006 %
+    Material  Nickel-chromium alloys :  15.6739811912 %
+    Material  Silicon nitride :  11.6771159875 %
+    Material  Stainless Steel :  8.30721003135 %
+    Material  Titanium Alloys :  8.77742946708 %
+  Cluster # 4 :
+    Material  Age-hardening wrought Al-alloys :  9.66386554622 %
+    Material  Aluminum nitride :  11.9047619048 %
+    Material  Aluminum/Silicon carbide composite :  9.52380952381 %
+    Material  Brass :  15.5462184874 %
+    Material  Cast Al-alloys :  6.86274509804 %
+    Material  Commercially Pure Zinc :  7.14285714286 %
+    Material  Nikel :  11.9047619048 %
+    Material  Non age-hardening wrought Al-alloys :  5.74229691877 %
+    Material  Tungsten Alloys :  8.12324929972 %
+    Material  Tungsten Carbides :  5.32212885154 %
+    Material  Zinc die-casting alloys :  8.26330532213 %
+  Cluster # 5 :
+    Material  Copper :  35.691318328 %
+    Material  Silver :  64.308681672 %
+  Cluster # 6 :
+    Material  Alumina :  20.1612903226 %
+    Material  Boron Carbide :  5.24193548387 %
+    Material  Cast iron, ductile (nodular) :  11.9959677419 %
+    Material  Cast iron, gray :  2.92338709677 %
+    Material  Cast magnesium alloys :  7.86290322581 %
+    Material  Lead Alloys :  3.83064516129 %
+    Material  Low Alloy Steel :  4.23387096774 %
+    Material  Nickel-based superalloys :  0.504032258065 %
+    Material  Silicon nitride :  5.14112903226 %
+    Material  Stainless Steel :  9.47580645161 %
+    Material  Tin :  20.1612903226 %
+    Material  Wrought magnesium alloys :  8.46774193548 %
+  Cluster # 7 :
+    Material  Lead Alloys :  4.11764705882 %
+    Material  Marble :  39.2156862745 %
+    Material  Nickel-based superalloys :  5.29411764706 %
+    Material  Sand Stone :  10.7843137255 %
+    Material  Titanium Alloys :  17.2549019608 %
+    Material  Zirconia :  23.3333333333 %
+  Cluster # 8 :
+    Material  Borosilicate Glass :  8.27472072818 %
+    Material  Carbon black reinforced styrene butadiene rubber (SBR) :  1.86181216384 %
+    Material  Cement :  5.17170045511 %
+    Material  CFRP, epoxy matrix (isotropic) :  8.27472072818 %
+    Material  Concrete :  8.27472072818 %
+    Material  Epoxies :  0.0413736036409 %
+    Material  Glass Ceramic :  8.27472072818 %
+    Material  Granite :  8.27472072818 %
+    Material  Lime Stone :  8.27472072818 %
+    Material  Metal Foam :  5.95779892429 %
+    Material  Sand Stone :  5.99917252793 %
+    Material  Silica Glass :  8.27472072818 %
+    Material  Silicone elastomers (SI, Q) :  3.14439387671 %
+    Material  Slate :  8.27472072818 %
+    Material  Soda-lime Glass :  8.27472072818 %
+    Material  Zirconia :  3.35126189491 %
+  Cluster # 9 :
+    Material  Age-hardening wrought Al-alloys :  8.15677966102 %
+    Material  Aluminum/Silicon carbide composite :  9.00423728814 %
+    Material  Boron Carbide :  2.64830508475 %
+    Material  Brass :  9.42796610169 %
+    Material  Cast Al-alloys :  6.35593220339 %
+    Material  Commercially Pure Zinc :  15.7838983051 %
+    Material  Nikel :  12.1822033898 %
+    Material  Non age-hardening wrought Al-alloys :  4.55508474576 %
+    Material  Silicon carbide :  7.73305084746 %
+    Material  Tungsten Alloys :  10.1694915254 %
+    Material  Tungsten Carbides :  6.88559322034 %
+    Material  Zinc die-casting alloys :  7.09745762712 %
+  Cluster # 10 :
+    Material  Boron Carbide :  6.16375344986 %
+    Material  Bronze :  11.223551058 %
+    Material  Cast Al-alloys :  0.827966881325 %
+    Material  Cast iron, ductile (nodular) :  7.45170193192 %
+    Material  Cast iron, gray :  9.01563937443 %
+    Material  Cast magnesium alloys :  6.80772769089 %
+    Material  High Carbon Steel :  13.3394664213 %
+    Material  Low Alloy Steel :  9.47562097516 %
+    Material  Low Carbon Steel :  10.027598896 %
+    Material  Medium Carbon Steel :  11.3155473781 %
+    Material  Silicon carbide :  3.40386384545 %
+    Material  Tungsten Carbides :  4.41582336707 %
+    Material  Wrought magnesium alloys :  6.53173873045 %
+  Cluster # 11 :
+    Material  Age-hardening wrought Al-alloys :  16.7701863354 %
+    Material  Aluminum nitride :  35.7142857143 %
+    Material  Cast Al-alloys :  4.03726708075 %
+    Material  Copper :  6.21118012422 %
+    Material  Non age-hardening wrought Al-alloys :  28.8819875776 %
+    Material  Zinc die-casting alloys :  8.3850931677 %
