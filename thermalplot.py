@@ -68,7 +68,7 @@ plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
 figManager = plt.get_current_fig_manager()
 figManager.window.showMaximized()
 
-ax.set_xscale('log')
+#ax.set_xscale('log')
 ax.set_title('Thermal Effusivity of Materials')
 ax.set_xlabel('Thermal Effusivity')
 ax.set_ylabel('Materials')

@@ -1,0 +1,1677 @@
+------------------------------------------------------------
+---------------- 13  CLUSTERS: -----------------------
+Material ranking on 13 - cluster model:
+
+
+  # 1 :  Plaster of Paris
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  100.0 %
+    Cluster # 12 :  0.0 %
+  # 2 :  Silicone elastomers (SI, Q)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  100.0 %
+    Cluster # 12 :  0.0 %
+  # 3 :  Ethylene vinyl acetate (EVA)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  100.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 4 :  Epoxies
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  100.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 5 :  Rigid Polymer Foam (HD)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  100.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 6 :  Boron Carbide
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  100.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 7 :  Polyhydroxyalkanoates (PHA, PHB)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  100.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 8 :  Tungsten Carbides
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  100.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 9 :  Wrought magnesium alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  100.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 10 :  Cellulose polymers (CA)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  100.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 11 :  Metal Foam
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  100.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 12 :  Stainless Steel
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  100.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 13 :  Flexible Polymer Foam (LD)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  100.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 14 :  Silicon nitride
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  100.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 15 :  Paper and Cardboard
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  100.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 16 :  Hardwood: oak, along grain
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  100.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 17 :  Cast magnesium alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  100.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 18 :  Starch-based thermoplastics (TPS)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  100.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 19 :  Rigid Polymer Foam (MD)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  100.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 20 :  Sheet molding compound, SMC, polyester matrix
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  100.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 21 :  Polymethyl methacrylate (Acrylic, PMMA)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  100.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 22 :  Sand Stone
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  100.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 23 :  Silicon carbide
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  100.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 24 :  Cast Al-alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  100.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 25 :  Hardwood: oak, across grain
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  100.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 26 :  Glass Ceramic
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  100.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 27 :  Ceramic Foam
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  100.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 28 :  Concrete
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  100.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 29 :  Low Alloy Steel
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  100.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 30 :  Aluminum/Silicon carbide composite
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  100.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 31 :  Zinc die-casting alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  100.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 32 :  Non age-hardening wrought Al-alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 33 :  Polyvinylchloride (tpPVC)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 34 :  Acrylonitrile butadiene styrene (ABS)
+
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 35 :  Lead Alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 36 :  Softwood: pine, across grain
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 37 :  Slate
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 38 :  Brick
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 39 :  Dough (Bulk) molding compound, DMC (BMC), polyester matrix
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 40 :  Tungsten Alloys
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 41 :  Bamboo
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 42 :  Cast iron, gray
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  100.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 43 :  Soda-lime Glass
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  100.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 44 :  Cast iron, ductile (nodular)
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  100.0 %
+  # 45 :  Cement
+Maximum distribution in one cluster:  100.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  100.0 %
+  # 46 :  Polyoxymethylene (Acetal, POM)
+Maximum distribution in one cluster:  98.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  1.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  98.5 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 47 :  Nickel-based superalloys
+Maximum distribution in one cluster:  97.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  2.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  97.5 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 48 :  Lime Stone
+Maximum distribution in one cluster:  95.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  5.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  95.0 %
+    Cluster # 12 :  0.0 %
+  # 49 :  Polyethylene (PE)
+Maximum distribution in one cluster:  94.5 %
+    Cluster # 0 :  5.5 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  94.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 50 :  Carbon black reinforced styrene butadiene rubber (SBR)
+Maximum distribution in one cluster:  94.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  94.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  6.0 %
+  # 51 :  Flexible Polymer Foam (MD)
+Maximum distribution in one cluster:  92.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  92.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  6.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  1.5 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 52 :  Polycarbonate (PC)
+Maximum distribution in one cluster:  92.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  92.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  8.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 53 :  Copper
+Maximum distribution in one cluster:  90.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  9.5 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  90.5 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 54 :  Age-hardening wrought Al-alloys
+Maximum distribution in one cluster:  90.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  10.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  90.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 55 :  Nikel
+Maximum distribution in one cluster:  90.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  10.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  90.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 56 :  Flexible Polymer Foam (VLD)
+Maximum distribution in one cluster:  86.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  86.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  13.5 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 57 :  Rigid Polymer Foam (LD)
+Maximum distribution in one cluster:  85.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  14.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  85.5 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 58 :  Cork
+Maximum distribution in one cluster:  83.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  16.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  83.5 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 59 :  Butyl rubber (IIR)
+Maximum distribution in one cluster:  82.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  82.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  17.5 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 60 :  Polylactide (PLA)
+Maximum distribution in one cluster:  80.5 %
+    Cluster # 0 :  80.5 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  19.5 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 61 :  Polyisoprene rubber (IIR)
+Maximum distribution in one cluster:  78.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  22.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  78.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 62 :  Polystyrene (PS)
+Maximum distribution in one cluster:  76.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  76.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  23.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 63 :  Softwood: pine, along grain
+Maximum distribution in one cluster:  75.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  75.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  24.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 64 :  Natural Rubber
+Maximum distribution in one cluster:  75.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  25.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  75.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 65 :  Leather
+Maximum distribution in one cluster:  75.0 %
+    Cluster # 0 :  25.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  75.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 66 :  Polypropylene (PP)
+Maximum distribution in one cluster:  74.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  25.5 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  74.5 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 67 :  Phenolics
+Maximum distribution in one cluster:  73.5 %
+    Cluster # 0 :  14.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  12.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  73.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 68 :  Polyethylene terephthalate (PET)
+Maximum distribution in one cluster:  73.5 %
+    Cluster # 0 :  26.5 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  73.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 69 :  Polychloroprene (Neoprene, CR)
+Maximum distribution in one cluster:  72.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  1.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  72.5 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  26.0 %
+    Cluster # 12 :  0.0 %
+  # 70 :  Polyurethane (tpPUR)
+Maximum distribution in one cluster:  69.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  30.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  69.5 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 71 :  Polyamides (Nylons, PA)
+Maximum distribution in one cluster:  69.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  31.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  69.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 72 :  Ionomer (I)
+Maximum distribution in one cluster:  69.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  69.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  31.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 73 :  Polyetheretherketone (PEEK)
+Maximum distribution in one cluster:  69.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  28.5 %
+    Cluster # 4 :  2.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  69.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 74 :  Plywood
+Maximum distribution in one cluster:  68.0 %
+    Cluster # 0 :  68.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  32.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 75 :  Polyester
+Maximum distribution in one cluster:  67.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  32.5 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  67.5 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 76 :  Polyurethane
+Maximum distribution in one cluster:  67.5 %
+    Cluster # 0 :  67.5 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  32.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 77 :  Polytetrafluoroethylene (Teflon, PTFE)
+Maximum distribution in one cluster:  66.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  33.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  66.5 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 78 :  GFRP, epoxy matrix (isotropic)
+Maximum distribution in one cluster:  65.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  65.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  34.5 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 79 :  Borosilicate Glass
+Maximum distribution in one cluster:  64.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  64.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  36.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 80 :  Silica Glass
+Maximum distribution in one cluster:  64.0 %
+    Cluster # 0 :  64.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  36.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 81 :  CFRP, epoxy matrix (isotropic)
+Maximum distribution in one cluster:  62.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  62.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  37.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 82 :  Granite
+Maximum distribution in one cluster:  62.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  62.5 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  37.5 %
+  # 83 :  Zirconia
+Maximum distribution in one cluster:  60.5 %
+    Cluster # 0 :  39.5 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  60.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 84 :  Marble
+Maximum distribution in one cluster:  60.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  60.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  40.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 85 :  Titanium Alloys
+Maximum distribution in one cluster:  60.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  60.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  40.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 86 :  Commercially Pure Titanium
+Maximum distribution in one cluster:  59.5 %
+    Cluster # 0 :  40.5 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  59.5 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 87 :  Nickel-chromium alloys
+Maximum distribution in one cluster:  58.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  41.5 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  58.5 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 88 :  Comercially Pure Lead
+Maximum distribution in one cluster:  58.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  58.5 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  41.5 %
+  # 89 :  Tin
+Maximum distribution in one cluster:  57.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  57.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  43.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 90 :  Alumina
+Maximum distribution in one cluster:  56.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  44.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  56.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 91 :  High Carbon Steel
+Maximum distribution in one cluster:  55.5 %
+    Cluster # 0 :  44.5 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  55.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 92 :  Medium Carbon Steel
+Maximum distribution in one cluster:  53.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  53.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  46.5 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 93 :  Bronze
+Maximum distribution in one cluster:  53.0 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  47.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  53.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 94 :  Low Carbon Steel
+Maximum distribution in one cluster:  53.0 %
+    Cluster # 0 :  47.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  53.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 95 :  Silicon
+Maximum distribution in one cluster:  52.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  52.5 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  36.5 %
+    Cluster # 6 :  11.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 96 :  Commercially Pure Zinc
+Maximum distribution in one cluster:  52.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  52.5 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  0.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  0.0 %
+    Cluster # 9 :  47.5 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 97 :  Brass
+Maximum distribution in one cluster:  52.0 %
+    Cluster # 0 :  4.5 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  52.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  43.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 98 :  Aluminum nitride
+Maximum distribution in one cluster:  51.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  48.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  51.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 99 :  Gold
+Maximum distribution in one cluster:  50.5 %
+    Cluster # 0 :  0.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  50.5 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  20.5 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  29.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+  # 100 :  Silver
+Maximum distribution in one cluster:  48.0 %
+    Cluster # 0 :  12.0 %
+    Cluster # 1 :  0.0 %
+    Cluster # 2 :  0.0 %
+    Cluster # 3 :  0.0 %
+    Cluster # 4 :  40.0 %
+    Cluster # 5 :  0.0 %
+    Cluster # 6 :  0.0 %
+    Cluster # 7 :  0.0 %
+    Cluster # 8 :  48.0 %
+    Cluster # 9 :  0.0 %
+    Cluster # 10 :  0.0 %
+    Cluster # 11 :  0.0 %
+    Cluster # 12 :  0.0 %
+
+
+Materials in each cluster:
+0 , Softwood:_pine,_across_grain , 1.52532031727
+0 , Paper_and_Cardboard , 2.47101891397
+0 , Bamboo , 4.9115314216
+0 , Butyl_rubber_(IIR) , 6.10128126907
+0 , Polylactide_(PLA) , 6.10128126907
+0 , Polyisoprene_rubber_(IIR) , 6.10128126907
+0 , Polystyrene_(PS) , 6.10128126907
+0 , Softwood:_pine,_along_grain , 6.10128126907
+0 , Natural_Rubber , 6.10128126907
+0 , Leather , 6.10128126907
+0 , Polypropylene_(PP) , 6.10128126907
+0 , Phenolics , 6.10128126907
+0 , Polyethylene_terephthalate_(PET) , 6.10128126907
+0 , Ceramic_Foam , 4.14887126297
+0 , Polychloroprene_(Neoprene,_CR) , 6.10128126907
+0 , Polymethyl_methacrylate_(Acrylic,_PMMA) , 3.9048200122
+0 , Hardwood:_oak,_across_grain , 4.11836485662
+0 , Polyhydroxyalkanoates_(PHA,_PHB) , 2.86760219646
+0 , Starch-based_thermoplastics_(TPS) , 2.41000610128
+0 , Cellulose_polymers_(CA) , 2.71507016473
+0 , Polycarbonate_(PC) , 0.335570469799
+0 , Polyvinylchloride_(tpPVC) , 1.6168395363
+0 , Acrylonitrile_butadiene_styrene_(ABS)
+ , 0.854179377669
+0 , Plaster_of_Paris , 0.732153752288
+0 , Epoxies , 0.274557657108
+1 , Cast_iron,_ductile_(nodular) , 1.35895032802
+1 , Wrought_magnesium_alloys , 5.01405810684
+1 , Cast_magnesium_alloys , 5.62324273664
+1 , Low_Alloy_Steel , 6.46672914714
+1 , Boron_Carbide , 4.92033739456
+1 , Cast_iron,_gray , 7.73195876289
+1 , High_Carbon_Steel , 9.37207122774
+1 , Medium_Carbon_Steel , 9.37207122774
+1 , Bronze , 9.37207122774
+1 , Low_Carbon_Steel , 9.37207122774
+1 , Silicon , 9.37207122774
+1 , Silicon_carbide , 6.13870665417
+1 , Tungsten_Carbides , 4.40487347704
+1 , Tungsten_Alloys , 2.0618556701
+1 , Cast_Al-alloys , 3.13964386129
+1 , Aluminum/Silicon_carbide_composite , 2.9053420806
+1 , Zinc_die-casting_alloys , 2.85848172446
+1 , Nikel , 0.140581068416
+1 , Age-hardening_wrought_Al-alloys , 0.234301780694
+1 , Non_age-hardening_wrought_Al-alloys , 0.140581068416
+2 , Flexible_Polymer_Foam_(LD) , 15.9183673469
+2 , Rigid_Polymer_Foam_(MD) , 17.0068027211
+2 , Flexible_Polymer_Foam_(MD) , 25.5782312925
+2 , Cork , 27.2108843537
+2 , Rigid_Polymer_Foam_(HD) , 14.2857142857
+3 , Lime_Stone , 2.06746463547
+3 , Concrete , 6.20239390642
+3 , Glass_Ceramic , 7.07290533188
+3 , Slate , 5.44069640914
+3 , Sand_Stone , 13.9281828074
+3 , Granite , 21.7627856366
+3 , Zirconia , 21.7627856366
+3 , Marble , 21.7627856366
+4 , Acrylonitrile_butadiene_styrene_(ABS)
+ , 1.35648399349
+4 , Polyoxymethylene_(Acetal,_POM) , 1.08518719479
+4 , Plaster_of_Paris , 4.34074877916
+4 , Ethylene_vinyl_acetate_(EVA) , 5.26315789474
+4 , Hardwood:_oak,_along_grain , 6.51112316875
+4 , Polyethylene_(PE) , 9.98372219208
+4 , Epoxies , 5.64297341291
+4 , Sheet_molding_compound,_SMC,_polyester_matrix , 6.78241996744
+4 , Dough_(Bulk)_molding_compound,_DMC_(BMC),_polyester_matrix , 8.30168204015
+4 , Brick , 8.19316332067
+4 , GFRP,_epoxy_matrix_(isotropic) , 10.8518719479
+4 , Carbon_black_reinforced_styrene_butadiene_rubber_(SBR) , 9.98372219208
+4 , Silicone_elastomers_(SI,_Q) , 5.4801953337
+4 , Cement , 9.38686923494
+4 , Metal_Foam , 4.77482365708
+4 , Soda-lime_Glass , 1.79055887141
+4 , Concrete , 0.271296798698
+5 , Nickel-based_superalloys , 1.69204737733
+5 , Lead_Alloys , 4.31472081218
+5 , Silicon_nitride , 7.02199661591
+5 , Stainless_Steel , 9.64467005076
+5 , Tin , 16.9204737733
+5 , Alumina , 16.9204737733
+5 , Cast_iron,_ductile_(nodular) , 14.4670050761
+5 , Wrought_magnesium_alloys , 7.86802030457
+5 , Cast_magnesium_alloys , 6.76818950931
+5 , Low_Alloy_Steel , 5.24534686971
+5 , Boron_Carbide , 6.17597292724
+5 , Cast_iron,_gray , 2.96108291032
+6 , Boron_Carbide , 1.15183246073
+6 , Silicon_carbide , 3.61256544503
+6 , Tungsten_Carbides , 5.5497382199
+6 , Tungsten_Alloys , 8.16753926702
+6 , Cast_Al-alloys , 6.96335078534
+6 , Aluminum/Silicon_carbide_composite , 7.22513089005
+6 , Commercially_Pure_Zinc , 10.4712041885
+6 , Zinc_die-casting_alloys , 7.27748691099
+6 , Nikel , 10.3141361257
+6 , Brass , 10.4712041885
+6 , Age-hardening_wrought_Al-alloys , 10.2094240838
+6 , Aluminum_nitride , 10.4712041885
+6 , Non_age-hardening_wrought_Al-alloys , 7.59162303665
+6 , Copper , 0.523560209424
+7 , Titanium_Alloys , 15.015015015
+7 , Commercially_Pure_Titanium , 15.015015015
+7 , Nickel-chromium_alloys , 15.015015015
+7 , Nickel-based_superalloys , 13.5135135135
+7 , Lead_Alloys , 11.1861861862
+7 , Comercially_Pure_Lead , 15.015015015
+7 , Silicon_nitride , 8.78378378378
+7 , Stainless_Steel , 6.45645645646
+8 , Ceramic_Foam , 1.87738339689
+8 , Polymethyl_methacrylate_(Acrylic,_PMMA) , 2.1120563215
+8 , Hardwood:_oak,_across_grain , 1.90671751247
+8 , Polyhydroxyalkanoates_(PHA,_PHB) , 3.1094162511
+8 , Starch-based_thermoplastics_(TPS) , 3.54942798475
+8 , Cellulose_polymers_(CA) , 3.25608682898
+8 , Polycarbonate_(PC) , 5.54414784394
+8 , Polyvinylchloride_(tpPVC) , 4.31211498973
+8 , Polyurethane_(tpPUR) , 5.86682311528
+8 , Polyamides_(Nylons,_PA) , 5.86682311528
+8 , Ionomer_(I) , 5.86682311528
+8 , Polyetheretherketone_(PEEK) , 5.86682311528
+8 , Acrylonitrile_butadiene_styrene_(ABS)
+ , 4.31211498973
+8 , Plywood , 5.86682311528
+8 , Polyester , 5.86682311528
+8 , Polyurethane , 5.86682311528
+8 , Polyoxymethylene_(Acetal,_POM) , 5.28014080375
+8 , Polytetrafluoroethylene_(Teflon,_PTFE) , 5.86682311528
+8 , Plaster_of_Paris , 2.81607509534
+8 , Ethylene_vinyl_acetate_(EVA) , 3.02141390437
+8 , Hardwood:_oak,_along_grain , 2.34672924611
+8 , Polyethylene_(PE) , 0.469345849223
+8 , Epoxies , 2.55206805515
+8 , Sheet_molding_compound,_SMC,_polyester_matrix , 2.20005866823
+8 , Dough_(Bulk)_molding_compound,_DMC_(BMC),_polyester_matrix , 1.37870343209
+8 , Brick , 1.43737166324
+8 , Carbon_black_reinforced_styrene_butadiene_rubber_(SBR) , 0.381343502493
+8 , Silicone_elastomers_(SI,_Q) , 1.20269873863
+9 , Rigid_Polymer_Foam_(HD) , 23.5732009926
+9 , Softwood:_pine,_across_grain , 37.2208436725
+9 , Paper_and_Cardboard , 29.5285359801
+9 , Bamboo , 9.67741935484
+10 , Carbon_black_reinforced_styrene_butadiene_rubber_(SBR) , 0.182592818016
+10 , Silicone_elastomers_(SI,_Q) , 3.53012781497
+10 , Cement , 1.64333536214
+10 , Metal_Foam , 6.81679853926
+10 , Borosilicate_Glass , 12.1728545344
+10 , Soda-lime_Glass , 10.1643335362
+10 , Silica_Glass , 12.1728545344
+10 , CFRP,_epoxy_matrix_(isotropic) , 12.1728545344
+10 , Lime_Stone , 11.0164333536
+10 , Concrete , 8.39926962873
+10 , Glass_Ceramic , 8.21667681071
+10 , Slate , 9.12964090079
+10 , Sand_Stone , 4.38222763238
+11 , Non_age-hardening_wrought_Al-alloys , 8.09968847352
+11 , Gold , 31.1526479751
+11 , Copper , 29.5950155763
+11 , Silver , 31.1526479751
+12 , Flexible_Polymer_Foam_(VLD) , 35.0877192982
+12 , Rigid_Polymer_Foam_(LD) , 35.0877192982
+12 , Flexible_Polymer_Foam_(LD) , 14.5614035088
+12 , Rigid_Polymer_Foam_(MD) , 13.1578947368
+12 , Flexible_Polymer_Foam_(MD) , 2.10526315789
+
+[(0, 1.653500593148258, array([ 0.34573325])), (1, 2.1223392081227721, array([ 3.73840592])), (2, 2.9337774768771836, array([-1.16572346])), (3, 1.521129221290362, array([ 2.12448766])), (4, 1.4018956795842044, array([ 1.07047523])), (5, 1.9309443443780303, array([ 3.38381678])), (6, 2.3283635944868126, array([ 4.01280946])), (7, 1.7501037063549942, array([ 2.94301489])), (8, 1.4639746335815129, array([ 0.71592939])), (9, 2.180128895657111, array([-0.30457639])), (10, 1.4162144815970275, array([ 1.57285879])), (11, 2.7360777082345553, array([ 4.45394448])), (12, 3.6143210490141326, array([-1.88723547]))]

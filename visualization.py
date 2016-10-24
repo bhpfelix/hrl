@@ -105,144 +105,145 @@ y = []
 for i in range(0, data['Material'].size):
     for samples in range(1, 25):
         eff = data['min_e'][i] + np.random.sample() * (data['max_e'][i] - data['min_e'][i])
-        X.append([eff])
-        y.append(i)
+#        X.append([eff])        
+        X.append([np.log(eff)])
+        y.append(data['category'][i])
         
 X = np.array(X)
 
-range_n_clusters = [2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 30, 50]
-silhouette_scores = []
-centroids = []
-
-for n_clusters in range_n_clusters:
-    # Create a subplot with 1 row and 2 columns
-    fig, (ax1, ax2) = plt.subplots(1, 2)
-    fig.set_size_inches(18, 7)
-
-    # The 1st subplot is the silhouette plot
-    # The silhouette coefficient can range from -1, 1 but in this example all
-    # lie within [-0.1, 1]
-    ax1.set_xlim([-0.1, 1])
-    
-    # The (n_clusters+1)*10 is for inserting blank space between silhouette
-    # plots of individual clusters, to demarcate them clearly.
-    ax1.set_ylim([0, len(X) + (n_clusters + 1) * 10])
-
-    # Initialize the clusterer with n_clusters value and a random generator
-    # seed of 10 for reproducibility.
-    clusterer = KMeans(n_clusters=n_clusters, random_state=10)
-    cluster_labels = clusterer.fit_predict(X)
-
-    # The silhouette_score gives the average value for all the samples.
-    # This gives a perspective into the density and separation of the formed
-    # clusters
-    silhouette_avg = silhouette_score(X, cluster_labels)
-    print("For n_clusters =", n_clusters,
-          "The average silhouette_score is :", silhouette_avg)
-    silhouette_scores.append(silhouette_avg)
-          
-    # Compute the silhouette scores for each sample
-    sample_silhouette_values = silhouette_samples(X, cluster_labels)
-
-    y_lower = 10
-    for i in range(n_clusters):
-        # Aggregate the silhouette scores for samples belonging to
-        # cluster i, and sort them
-        ith_cluster_silhouette_values = \
-            sample_silhouette_values[cluster_labels == i]
-
-        ith_cluster_silhouette_values.sort()
-
-        size_cluster_i = ith_cluster_silhouette_values.shape[0]
-        y_upper = y_lower + size_cluster_i
-
-        color = cm.spectral(float(i) / n_clusters)
-        ax1.fill_betweenx(np.arange(y_lower, y_upper),
-                          0, ith_cluster_silhouette_values,
-                          facecolor=color, edgecolor=color, alpha=0.7)
-
-        # Label the silhouette plots with their cluster numbers at the middle
-        ax1.text(-0.05, y_lower + 0.5 * size_cluster_i, str(i))
-
-        # Compute the new y_lower for next plot
-        y_lower = y_upper + 10  # 10 for the 0 samples
-
-    ax1.set_title("The silhouette plot for the various clusters.")
-    ax1.set_xlabel("The silhouette coefficient values")
-    ax1.set_ylabel("Cluster label")
-
-    # The vertical line for average silhoutte score of all the values
-    ax1.axvline(x=silhouette_avg, color="red", linestyle="--")
-
-    ax1.set_yticks([])  # Clear the yaxis labels / ticks
-    ax1.set_xticks([-0.1, 0, 0.2, 0.4, 0.6, 0.8, 1])
-
-    # 2nd Plot showing the actual clusters formed
-    colors = cm.spectral(cluster_labels.astype(float) / n_clusters)
-    ax2.scatter(X, X, marker='.', s=30, lw=0, alpha=0.7,
-                c=colors)
-
-    # Labeling the clusters
-    centers = clusterer.cluster_centers_
-    centroids.append(centers)
-    # Draw white circles at cluster centers
-    ax2.scatter(centers, centers,
-                marker='o', c="white", alpha=1, s=200)
-
-    for i, c in enumerate(centers):
-        ax2.scatter(c, c, marker='$%d$' % i, alpha=1, s=50)
-
-    ax2.set_title("The visualization of the clustered data.")
-    ax2.set_xlabel("Feature space for effusivity")
-    ax2.set_ylabel("Feature space for effusivity")
-
-    plt.suptitle(("Silhouette analysis for KMeans clustering on sample data "
-                  "with n_clusters = %d" % n_clusters),
-                 fontsize=14, fontweight='bold')
-    
-    figManager = plt.get_current_fig_manager()
-    figManager.window.showMaximized()
-
-    plt.show()
-    
-D_k = [cdist(X, cent, 'euclidean') for cent in centroids]
-cIdx = [np.argmin(D,axis=1) for D in D_k]
-dist = [np.min(D,axis=1) for D in D_k]
-avgWithinSS = [sum(d)/X.shape[0] for d in dist]
-
-# Total with-in sum of square
-wcss = [sum(d**2) for d in dist]
-tss = sum(pdist(X)**2)/X.shape[0]
-bss = tss-wcss
-
-kIdx = 10-1
-
-# elbow curve
-fig = plt.figure()
-ax = fig.add_subplot(111)
-ax.plot(range_n_clusters, avgWithinSS, 'b*-')
-ax.plot(range_n_clusters[kIdx], avgWithinSS[kIdx], marker='o', markersize=12, 
-markeredgewidth=2, markeredgecolor='r', markerfacecolor='None')
-plt.grid(True)
-plt.xlabel('Number of clusters')
-plt.ylabel('Average within-cluster sum of squares')
-plt.title('Elbow for KMeans clustering')
-
-fig = plt.figure()
-ax = fig.add_subplot(111)
-ax.plot(range_n_clusters, bss/tss*100, 'b*-')
-plt.grid(True)
-plt.xlabel('Number of clusters')
-plt.ylabel('Percentage of variance explained')
-plt.title('Elbow for KMeans clustering')
-
-fig = plt.figure()
-ax = fig.add_subplot(111)
-ax.plot(range_n_clusters, silhouette_scores, 'b*-')
-plt.grid(True)
-plt.xlabel('Number of clusters')
-plt.ylabel('Silhouette Score')
-plt.title('Silhouette Score for n Clusters')
+range_n_clusters = [13]
+#silhouette_scores = []
+#centroids = []
+#
+#for n_clusters in range_n_clusters:
+#    # Create a subplot with 1 row and 2 columns
+#    fig, (ax1, ax2) = plt.subplots(1, 2)
+#    fig.set_size_inches(18, 7)
+#
+#    # The 1st subplot is the silhouette plot
+#    # The silhouette coefficient can range from -1, 1 but in this example all
+#    # lie within [-0.1, 1]
+#    ax1.set_xlim([-0.1, 1])
+#    
+#    # The (n_clusters+1)*10 is for inserting blank space between silhouette
+#    # plots of individual clusters, to demarcate them clearly.
+#    ax1.set_ylim([0, len(X) + (n_clusters + 1) * 10])
+#
+#    # Initialize the clusterer with n_clusters value and a random generator
+#    # seed of 10 for reproducibility.
+#    clusterer = KMeans(n_clusters=n_clusters, random_state=10)
+#    cluster_labels = clusterer.fit_predict(X)
+#
+#    # The silhouette_score gives the average value for all the samples.
+#    # This gives a perspective into the density and separation of the formed
+#    # clusters
+#    silhouette_avg = silhouette_score(X, cluster_labels)
+#    print("For n_clusters =", n_clusters,
+#          "The average silhouette_score is :", silhouette_avg)
+#    silhouette_scores.append(silhouette_avg)
+#          
+#    # Compute the silhouette scores for each sample
+#    sample_silhouette_values = silhouette_samples(X, cluster_labels)
+#
+#    y_lower = 10
+#    for i in range(n_clusters):
+#        # Aggregate the silhouette scores for samples belonging to
+#        # cluster i, and sort them
+#        ith_cluster_silhouette_values = \
+#            sample_silhouette_values[cluster_labels == i]
+#
+#        ith_cluster_silhouette_values.sort()
+#
+#        size_cluster_i = ith_cluster_silhouette_values.shape[0]
+#        y_upper = y_lower + size_cluster_i
+#
+#        color = cm.spectral(float(i) / n_clusters)
+#        ax1.fill_betweenx(np.arange(y_lower, y_upper),
+#                          0, ith_cluster_silhouette_values,
+#                          facecolor=color, edgecolor=color, alpha=0.7)
+#
+#        # Label the silhouette plots with their cluster numbers at the middle
+#        ax1.text(-0.05, y_lower + 0.5 * size_cluster_i, str(i))
+#
+#        # Compute the new y_lower for next plot
+#        y_lower = y_upper + 10  # 10 for the 0 samples
+#
+#    ax1.set_title("The silhouette plot for the various clusters.")
+#    ax1.set_xlabel("The silhouette coefficient values")
+#    ax1.set_ylabel("Cluster label")
+#
+#    # The vertical line for average silhoutte score of all the values
+#    ax1.axvline(x=silhouette_avg, color="red", linestyle="--")
+#
+#    ax1.set_yticks([])  # Clear the yaxis labels / ticks
+#    ax1.set_xticks([-0.1, 0, 0.2, 0.4, 0.6, 0.8, 1])
+#
+#    # 2nd Plot showing the actual clusters formed
+#    colors = cm.spectral(cluster_labels.astype(float) / n_clusters)
+#    ax2.scatter(X, X, marker='.', s=30, lw=0, alpha=0.7,
+#                c=colors)
+#
+#    # Labeling the clusters
+#    centers = clusterer.cluster_centers_
+#    centroids.append(centers)
+#    # Draw white circles at cluster centers
+#    ax2.scatter(centers, centers,
+#                marker='o', c="white", alpha=1, s=200)
+#
+#    for i, c in enumerate(centers):
+#        ax2.scatter(c, c, marker='$%d$' % i, alpha=1, s=50)
+#
+#    ax2.set_title("The visualization of the clustered data.")
+#    ax2.set_xlabel("Feature space for effusivity")
+#    ax2.set_ylabel("Feature space for effusivity")
+#
+#    plt.suptitle(("Silhouette analysis for KMeans clustering on sample data "
+#                  "with n_clusters = %d" % n_clusters),
+#                 fontsize=14, fontweight='bold')
+#    
+#    figManager = plt.get_current_fig_manager()
+#    figManager.window.showMaximized()
+#
+#    plt.show()
+#    
+#D_k = [cdist(X, cent, 'euclidean') for cent in centroids]
+#cIdx = [np.argmin(D,axis=1) for D in D_k]
+#dist = [np.min(D,axis=1) for D in D_k]
+#avgWithinSS = [sum(d)/X.shape[0] for d in dist]
+#
+## Total with-in sum of square
+#wcss = [sum(d**2) for d in dist]
+#tss = sum(pdist(X)**2)/X.shape[0]
+#bss = tss-wcss
+#
+#kIdx = 10-1
+#
+## elbow curve
+#fig = plt.figure()
+#ax = fig.add_subplot(111)
+#ax.plot(range_n_clusters, avgWithinSS, 'b*-')
+#ax.plot(range_n_clusters[kIdx], avgWithinSS[kIdx], marker='o', markersize=12, 
+#markeredgewidth=2, markeredgecolor='r', markerfacecolor='None')
+#plt.grid(True)
+#plt.xlabel('Number of clusters')
+#plt.ylabel('Average within-cluster sum of squares')
+#plt.title('Elbow for KMeans clustering')
+#
+#fig = plt.figure()
+#ax = fig.add_subplot(111)
+#ax.plot(range_n_clusters, bss/tss*100, 'b*-')
+#plt.grid(True)
+#plt.xlabel('Number of clusters')
+#plt.ylabel('Percentage of variance explained')
+#plt.title('Elbow for KMeans clustering')
+#
+#fig = plt.figure()
+#ax = fig.add_subplot(111)
+#ax.plot(range_n_clusters, silhouette_scores, 'b*-')
+#plt.grid(True)
+#plt.xlabel('Number of clusters')
+#plt.ylabel('Silhouette Score')
+#plt.title('Silhouette Score for n Clusters')
 
 for elbow in range_n_clusters:
     print("------------------------------------------------------------", file=logs)
@@ -263,7 +264,9 @@ for elbow in range_n_clusters:
     for i in range(0, data['Material'].size):
         temp = np.zeros(elbow)
         for samples in range(1, SAMPLE_NUMBER + 1):
-            label = clusterer.predict(data['min_e'][i] + np.random.sample() * (data['max_e'][i] - data['min_e'][i]))
+            effu = data['min_e'][i] + np.random.sample() * (data['max_e'][i] - data['min_e'][i])
+            
+            label = clusterer.predict(np.log(effu))
             temp[label] += 1
         for j in range(0, len(temp)):
             cluster_info[j][i] = temp[j]
@@ -286,12 +289,23 @@ for elbow in range_n_clusters:
 
     print("Materials in each cluster:", file=logs)
     for i in range(0, elbow):
-        print("  Cluster #", i, ": ", file=logs)
+#        print("  Cluster #", i, ": ", file=logs)
         total = 0
         for k in range(0, len(cluster_info[i])):
             total += cluster_info[i][k]
         for k in range(0, len(cluster_info[i])):
             if not cluster_info[i][k] == 0:
-                print("    Material ", data['Material'][k], ": ", cluster_info[i][k] / total * 100, "%", file=logs)
+                print(i,",", data['Material'][k].replace(" ", "_"), ",", cluster_info[i][k] / total * 100, file=logs)
+   
+    if elbow == 13:
+        err_dict = {}
+        for i in range(len(X)):
+            clst_num = cluster_labels[i]
+            if err_dict.has_key(clst_num):
+                err_dict[clst_num].append(abs(X - clusterer.cluster_centers_[clst_num]))
+            else:
+                err_dict[clst_num] = [abs(X - clusterer.cluster_centers_[clst_num])]
                 
+        print([(key, np.mean(err_dict[key]), clusterer.cluster_centers_[key]) for key in err_dict.keys()])             
+
 logs.close()
