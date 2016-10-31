@@ -5,10 +5,10 @@ import matplotlib
 import numpy as np
 import matplotlib.pyplot as pp
 import scipy as scp
-import roslib; roslib.load_manifest('sandbox_tapo_darpa_m3')
-import rospy
-import hrl_lib.util as ut
-import hrl_lib.matplotlib_util as mpu
+# import roslib; roslib.load_manifest('sandbox_tapo_darpa_m3')
+# import rospy
+# import hrl_lib.util as ut
+# import hrl_lib.matplotlib_util as mpu
 import pickle
 import optparse
 import unittest
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     p = optparse.OptionParser()
     p.add_option('--raw', action='store_true', dest='raw', help='use raw features')
     p.add_option('--raw_slope', action='store_true', dest='raw_slope', help='use raw and slope features')
-        
+
     opt, args = p.parse_args()
 
     if opt.raw:
@@ -96,12 +96,7 @@ if __name__ == '__main__':
     categories = ['Acrylic', 'Aluminum', 'Brick', 'Cardboard', 'Glass', 'MDF', 'Neoprene', 'Pine', 'Porcelain', 'Rubber', 'Steel']
     num_folds = 3
     #print np.shape(input_Fmat)
-    dataset = {}  
+    dataset = {}
     dataset = create_dataset(input_Fmat, categories)
     run_crossvalidation(dataset, categories, num_folds)
     run_crossvalidation_new(dataset, categories, num_folds)
-    
-    
-    
-    
-

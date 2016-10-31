@@ -9,17 +9,17 @@ import scipy as scp
 import scipy.ndimage as ni
 from scipy.signal import butter, lfilter, freqz
 
-import roslib; roslib.load_manifest('sandbox_tapo_darpa_m3')
-import rospy
+# import roslib; roslib.load_manifest('sandbox_tapo_darpa_m3')
+# import rospy
 #import hrl_lib.mayavi2_util as mu
-import hrl_lib.viz as hv
-import hrl_lib.util as ut
-import hrl_lib.matplotlib_util as mpu
+# import hrl_lib.viz as hv
+# import hrl_lib.util as ut
+# import hrl_lib.matplotlib_util as mpu
 import pickle
 
 import unittest
-import ghmm
-import ghmmwrapper
+# import ghmm
+# import ghmmwrapper
 import random
 
 import os, os.path
@@ -37,7 +37,7 @@ def butter_lowpass_filter(data, cutoff, fs, order=5):
 
 # Define features
 
-def feature_vector_diff(Zt,i): 
+def feature_vector_diff(Zt,i):
 
     Fvec = Zt[1][i:-1]
     last_value = Fvec[-1]
@@ -53,7 +53,7 @@ def feature_vector_diff(Zt,i):
         else:
             #print ref_data[j+5], ref_data[j-5], ref_data[j+5]-ref_data[j-5]
             slope.append((Fvec[j+1]-Fvec[j-1])/(2*0.01))
-            
+
     order = 8
     fs = 100.0
     cutoff = 2
@@ -63,15 +63,15 @@ def feature_vector_diff(Zt,i):
         Fvec.append(slope[j])
     return Fvec
 
-  
+
 if __name__ == '__main__' or __name__ != '__main__':
 
-    data_path = '/home/tapo/svn/robot1_data/usr/tapo/data/temperature_related/Automated_Random_Initial_Conditions/'
-    exp_list = ['Acrylic/', 'Aluminum/', 'Brick/', 'Cardboard/', 'Glass/', 'MDF/', 'Neoprene/', 'Pine/', 'Porcelain/', 'Rubber/', 'Steel/']    
+    data_path = 'Automated_Random_Initial_Conditions/'
+    exp_list = ['Acrylic/', 'Aluminum/', 'Brick/', 'Cardboard/', 'Glass/', 'MDF/', 'Neoprene/', 'Pine/', 'Porcelain/', 'Rubber/', 'Steel/']
     exps = 500
 
     ta_dins = [0.0]*10000
-            
+
 ## Trials with different Initial Conditions
     temp_num_dins = 0
     for i in range(np.size(exp_list)):
@@ -83,7 +83,7 @@ if __name__ == '__main__' or __name__ != '__main__':
         temp_num_dins = exps*np.size(exp_list)
 
     Fmat_original = [0.0]*temp_num_dins
-    
+
 ## Creating Feature Vector for DINS
 
     idx = 0
