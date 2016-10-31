@@ -63,9 +63,8 @@ if __name__ == '__main__':
 	alpha_obj = 0.15/(440.*1660.)
 	noise = 0.1 #Percent
 
-	temp_models = model_temperature(t_sens_0, t_amb, k_sens, alpha_sens, k_obj, alpha_obj, noise)
-	time, temp_values = temp_models.run_simulation()
-	temp_models.visualize_temp(time, temp_values)
+	temp_models = model_temperature(t_sens_0, t_amb, total_time, k_sens, alpha_sens, k_obj, alpha_obj, noise)
+	temp_models.visualize_temp()
 
 	pp.show()
 
