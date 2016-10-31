@@ -6,11 +6,12 @@ import math
 
 class model_temperature:
 
-	def __init__(self, t_sens_0, t_amb, k_sens, alpha_sens, k_obj, alpha_obj, noise):
+	def __init__(self, t_sens_0, t_amb, total_time, k_sens, alpha_sens, k_obj, alpha_obj, noise):
 		self.t_ambient = t_amb + 273.15 # in Kelvin : 25 celsius
 		self.t_sens_0 = t_sens_0 + 273.15
 		self.t_obj_0 = self.t_ambient
 
+		self.total_time = total_time
 		self.sampling_time = 0.005 # in seconds
 		self.x = 0.08*0.001 # m : depth of thermistor from surface
 
@@ -25,7 +26,7 @@ class model_temperature:
 
 	def run_simulation(self):
 		t_surf = (self.t_sens_0*(self.k_sens/math.sqrt(self.alpha_sens)) + self.t_obj_0*(self.k_obj/math.sqrt(self.alpha_obj)))/(self.k_sens/math.sqrt(self.alpha_sens) + self.k_obj/math.sqrt(self.alpha_obj))
-		time_list = np.arange(0.01,10,self.sampling_time)
+		time_list = np.arange(0.01,self.total_time,self.sampling_time)
 		for ts in time_list:
 			self.temp_list.append(self.t_sens_0 + (t_surf - self.t_sens_0)*math.erfc(self.x/(2*math.sqrt(self.alpha_sens*ts))))
 		self.temp_list = self.temp_list + np.random.normal(0,self.noise,len(self.temp_list))
@@ -43,6 +44,7 @@ class model_temperature:
 
 if __name__ == '__main__':
 
+	total_time = 10
 	#from identify_sensor_parameters import k_sens, alpha_sens
 	k_sens = 0.0349
 	alpha_sens = 2.796*10**(-9)
