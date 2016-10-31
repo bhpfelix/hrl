@@ -33,18 +33,23 @@ class model_temperature:
 		return time_list, self.temp_list
 
 	def visualize_temp(self, time=None, data=None):
-		if time == None and data == None:
+		if time is None and data is None:
 			time, data = self.run_simulation()
 
 		pp.figure()
-		pTitle = 'HeatFlow TS=%s TA=%s TT=%s N=%s%' % (self.t_sens_0, self.t_ambient, self.total_time, self.noise)
-		pp.title(pTitle,fontsize='24')
+		pp.title('Heat Flow',fontsize='24')
 		pp.xlabel('Time (s)',fontsize='24')
 		pp.ylabel('Temperature (K)',fontsize='24')
 		pp.plot(time, data, linewidth=4.0, color='g')
 		pp.hold(True)
-		pp.xlim([0,10])
+		pp.xlim([0,self.total_time])
 		pp.grid('on')
+
+		ax = pp.gca()
+		ymin, ymax = ax.get_ylim()
+		textPos = ymin + (ymax-ymin)*0.7
+		text = pp.Text(self.total_time/2., textPos, 't_sens_0=%s \nt_ambient=%s \ntotal_time=%s \nnoise=%s%%' % (self.t_sens_0, self.t_ambient, self.total_time, self.noise), horizontalalignment='center')
+		ax.add_artist(text)
 
 if __name__ == '__main__':
 
