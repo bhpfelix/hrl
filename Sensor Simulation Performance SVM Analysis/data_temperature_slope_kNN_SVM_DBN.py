@@ -49,7 +49,6 @@ def feature_vector_diff(Zt,i=0):
     #         temp_data.append(last_value)
 
     print 'Calculating Slope'
-    print np.size(temp_data)
     temp_slope = []
     for j in range(np.size(temp_data)):
         if j <= 1 or j >= (np.size(temp_data)-1):
@@ -66,7 +65,7 @@ def feature_vector_diff(Zt,i=0):
     print 'Filtering Data'
     temp_slope = butter_lowpass_filter(np.array(temp_slope), cutoff, fs, order).tolist()
 
-    return np.array([temp_data, temp_slope])
+    return temp_data, temp_slope
 
 
 # if __name__ == '__main__' or __name__ != '__main__':

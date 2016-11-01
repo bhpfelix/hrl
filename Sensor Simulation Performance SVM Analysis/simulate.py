@@ -21,7 +21,7 @@ data_path = 'data/'
 ### For Effusivity Data Generation
 min_e = 0.089553894 #Rigid Polymer Foam
 max_e = 107.8818103 #Copper
-intervals_e = 3 #22
+intervals_e = 22
 delta_e = (max_e - min_e)/intervals_e
 e_list = np.linspace(min_e, max_e, intervals_e)
 
@@ -31,13 +31,13 @@ sampling_time = 0.005
 k_sens = 0.0349
 alpha_sens = 2.796*10**(-9)
 t_sens_0 = [30, 35, 40]
-t_amb = [25] #[25, 30, 35]
+t_amb = [25, 30, 35]
 k_obj = None # Value assigned later through sampling
 alpha_obj = 1 # Given alpha_obj = 1, effusivity = k_obj/sqrt(alpha_obj) = k_obj
-noise = [0.1] #[1, 2, 5, 10]
+noise = [0.1, 1, 2, 5, 10]
 
 ### For Simulated Experiment
-exps = 1 #500
+exps = 500
 effu_interval_list = [(e_list[i], e_list[i+1]) for i in range(0, len(e_list)-1)]
 util.save_pickle(effu_interval_list, os.path.join(data_path, 'elist.pkl'))
 
@@ -53,12 +53,12 @@ temp_models = [model_temperature(ts, ta, max(total_time), sampling_time, k_sens,
                     if ta < ts]
 
 for index, e_range in enumerate(effu_interval_list):
-    print 'Iterating through range %s' % index
+    print 'Iterating through range %s/%s' % (index, len(effu_interval_list))
     for ind, model in enumerate(temp_models):
-        print 'Iterating through model %s' % ind
+        print 'Iterating through model %s/%s' % (ind, len(temp_models))
         Fmat = []
         for trial in range(0, exps):
-            print 'Trial #%s' % trial
+            # print 'Trial #%s' % trial
             e_min, e_max = e_range
             normal_rand = np.random.randn()*0.7
             e = (e_min+e_max)/2. + normal_rand*(e_max-e_min)/2.
