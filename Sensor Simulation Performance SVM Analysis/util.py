@@ -1,7 +1,23 @@
-import pickle
+import pickle as pk
 
-a = [15, 20, 25, 30]
-b = [25, 30, 35, 40]
+def load_pickle(filename):
+    try:
+        p = open(filename, 'r')
+    except IOError:
+        print "Pickle file cannot be opened."
+        return None
+    try:
+        picklelicious = pk.load(p)
+    except ValueError:
+        print 'load_pickle failed once, trying again'
+        p.close()
+        p = open(filename, 'r')
+        picklelicious = pk.load(p)
 
-ab = [(i, j) for i in a for j in b if i < j]
-print ab
+    p.close()
+    return picklelicious
+
+def save_pickle(data_object, filename):
+    pickle_file = open(filename, 'w')
+    pk.dump(data_object, pickle_file)
+    pickle_file.close()
