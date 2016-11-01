@@ -75,4 +75,3 @@ class model_temperature:
 # 	temp_models.visualize_temp()
 
 # 	pp.show()
-

@@ -38,7 +38,7 @@ alpha_obj = 1 # Given alpha_obj = 1, effusivity = k_obj/sqrt(alpha_obj) = k_obj
 noise = [0.1, 1, 2, 5, 10]
 
 ### For Simulated Experiment
-exps = 500
+exps = 10
 effu_interval_list = [(e_list[i], e_list[i+1]) for i in range(0, len(e_list)-1)]
 util.save_pickle(effu_interval_list, os.path.join(data_path, 'elist.pkl'))
 
@@ -46,7 +46,7 @@ util.save_pickle(effu_interval_list, os.path.join(data_path, 'elist.pkl'))
 fs = 100.0
 cutoff = 2
 
-
+### Creating Models
 temp_models = [model_temperature(ts, ta, max(total_time), sampling_time, k_sens, alpha_sens, k_obj, alpha_obj, n)
                     for ts in t_sens_0
                     for ta in t_amb
@@ -65,7 +65,7 @@ for index, e_range in enumerate(effu_interval_list):
         for trial in range(0, exps):
             # print 'Trial #%s' % trial
             e_min, e_max = e_range
-            normal_rand = np.random.randn()*0.7
+            normal_rand = np.random.randn()*0.5
             e = (e_min+e_max)/2. + normal_rand*(e_max-e_min)/2.
 
             model.set_attr('k_obj',e)
@@ -86,23 +86,3 @@ for index, e_range in enumerate(effu_interval_list):
                                         model.noise)
         print 'Saving Data'
         util.save_pickle(Fmat, os.path.join(data_path, fname))
-
-
-
-
-
-
-
-# data = [model.run_simulation() for model in temp_models]
-
-# for index, item in enumerate(data):
-#     time, temp_values = item
-
-#     # filtered = butter_lowpass_filter(temp_values, cutoff, fs)
-#     # temp_models[index].visualize_temp(time, filtered)
-#     filtered_slope = feature_vector_diff(item)
-#     temp_models[index].visualize_temp(time, filtered_slope[0])
-#     temp_models[index].visualize_temp(time, filtered_slope[1])
-
-
-# pp.show()
