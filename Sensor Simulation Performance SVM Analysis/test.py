@@ -14,9 +14,9 @@ import os
 print np.array([[1,2],[3,4]]).flatten().tolist()
 print [(1.*2.), (3.*4.)]
 # data = np.linspace(1, 10, 5)
-# util.save_pickle(data, 'data/test.pkl')
+# util.save_pickle(data, 'data/test.1.0.pkl')
 
-# data_load = util.load_pickle('data/test.pkl')
+# data_load = util.load_pickle('data/test.1.0.pkl')
 # print data_load
 # print type(data_load)
 dic = {(1,2):'ha', (3,4):'hei'}
@@ -37,5 +37,9 @@ class tt:
         else:
             raise AttributeError("'%s' object has no attribute '%s'" % (tt.__name__, attr))
 
-ll = [0.7*np.random.randn(1) for i in range(100)]
+ll = [0.7*np.random.randn() for i in range(100)]
+print ll
 print len([i for i in ll if i >= -1 and i <= 1])
+
+z = ([1,2,3], [3,4,5])
+print np.array(z[1][0:]).flatten().tolist()
