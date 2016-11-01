@@ -39,16 +39,10 @@ def butter_lowpass_filter(data, cutoff, fs, order=5):
 # Input: Zt = (time_list, temp_list)
 # Output: Fvec = [data] + [slope]
 def feature_vector_diff(Zt,i=0):
-    print 'Generating Fvec'
+    # print 'Generating Fvec'
     temp_data = np.array(Zt[1][i:]).flatten().tolist()
-    # last_value = temp_data[-1]
-    # if len(temp_data) >= 500:
-    #     temp_data = temp_data[0:500]
-    # else:
-    #     for i in range(len(temp_data), 500):
-    #         temp_data.append(last_value)
 
-    print 'Calculating Slope'
+    # print 'Calculating Slope'
     temp_slope = []
     for j in range(np.size(temp_data)):
         if j <= 1 or j >= (np.size(temp_data)-1):
@@ -62,7 +56,7 @@ def feature_vector_diff(Zt,i=0):
     cutoff = 2
 
     # Filter the data
-    print 'Filtering Data'
+    # print 'Filtering Data'
     temp_slope = butter_lowpass_filter(np.array(temp_slope), cutoff, fs, order).tolist()
 
     return temp_data, temp_slope

@@ -9,6 +9,7 @@ import random
 import pickle
 import os
 
+from progressbar import *
 import util
 from forward_model import *
 from data_temperature_slope_kNN_SVM_DBN import *
@@ -56,6 +57,10 @@ for index, e_range in enumerate(effu_interval_list):
     print 'Iterating through range %s/%s' % (index, len(effu_interval_list))
     for ind, model in enumerate(temp_models):
         print 'Iterating through model %s/%s' % (ind, len(temp_models))
+
+        widgets = [Bar('>'), ' ', ETA(), ' ', ReverseBar('<')]
+        pbar = ProgressBar(widgets=widgets, maxval=exps).start()
+
         Fmat = []
         for trial in range(0, exps):
             # print 'Trial #%s' % trial
@@ -68,6 +73,11 @@ for index, e_range in enumerate(effu_interval_list):
             result = model.run_simulation()
             Fvec = feature_vector_diff(result)
             Fmat.append(Fvec)
+
+            pbar.update(trial)
+
+        pbar.finish()
+        print
 
         fname = '%s_%s_%s_%s_%s.pkl' % (index,
                                         model.t_sens_0,
