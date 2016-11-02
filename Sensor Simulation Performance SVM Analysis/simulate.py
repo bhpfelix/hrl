@@ -17,7 +17,7 @@ from data_temperature_slope_kNN_SVM_DBN import *
 
 
 ### File I/O
-data_path = 'data/'
+data_path = '../simulated_sensor_data/'
 
 ### For Effusivity Data Generation
 min_e = 0.089553894 #Rigid Polymer Foam
@@ -38,7 +38,7 @@ alpha_obj = 1 # Given alpha_obj = 1, effusivity = k_obj/sqrt(alpha_obj) = k_obj
 noise = [0.1, 1, 2, 5, 10]
 
 ### For Simulated Experiment
-exps = 10
+exps = 100
 effu_interval_list = [(e_list[i], e_list[i+1]) for i in range(0, len(e_list)-1)]
 util.save_pickle(effu_interval_list, os.path.join(data_path, 'elist.pkl'))
 
