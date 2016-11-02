@@ -58,20 +58,20 @@ class model_temperature:
 		text = pp.Text(self.total_time/2., textPos, 't_sens_0=%s \nt_ambient=%s \ntotal_time=%s \nnoise=%s%%' % (self.t_sens_0, self.t_ambient, self.total_time, self.noise), horizontalalignment='center')
 		ax.add_artist(text)
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
 
-# 	total_time = 10
-# 	sampling_time = 0.001
-# 	#from identify_sensor_parameters import k_sens, alpha_sens
-# 	k_sens = 0.0349
-# 	alpha_sens = 2.796*10**(-9)
-# 	t_sens_0 = 30
-# 	t_amb = 25
-# 	k_obj = 0.15
-# 	alpha_obj = 0.15/(440.*1660.)
-# 	noise = 0.1 #Percent
+	total_time = 10
+	sampling_time = 0.001
+	#from identify_sensor_parameters import k_sens, alpha_sens
+	k_sens = 0.0349
+	alpha_sens = 2.796*10**(-9)
+	t_sens_0 = 30
+	t_amb = 25
+	k_obj = 0.15
+	alpha_obj = 0.15/(440.*1660.)
+	noise = 10 #Percent
 
-# 	temp_models = model_temperature(t_sens_0, t_amb, total_time, sampling_time, k_sens, alpha_sens, k_obj, alpha_obj, noise)
-# 	temp_models.visualize_temp()
+	temp_models = model_temperature(t_sens_0, t_amb, total_time, sampling_time, k_sens, alpha_sens, k_obj, alpha_obj, noise)
+	temp_models.visualize_temp()
 
-# 	pp.show()
+	pp.show()
