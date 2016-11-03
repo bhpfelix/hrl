@@ -5,14 +5,13 @@ import matplotlib
 import numpy as np
 import matplotlib.pyplot as pp
 import scipy as scp
-# import roslib; roslib.load_manifest('sandbox_tapo_darpa_m3')
-# import rospy
-# import hrl_lib.util as ut
-# import hrl_lib.matplotlib_util as mpu
+from math import floor
 import pickle
 import optparse
 import unittest
 import random
+import os
+import util
 
 from sklearn import decomposition
 from sklearn import svm
@@ -22,18 +21,28 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
 import sys
-#sys.path.insert(0, '/home/tapo/svn/robot1_data/usr/tapo/data_code/temperature_related/')
-sys.path.insert(0, '/home/tapo/svn/robot1_data/usr/tapo/data_code/temperature_related/Automated_Random_Initial_Conditions/')
-from data_temperature_slope_kNN_SVM_DBN import Fmat_original
 
-def create_dataset(mat, categories):
-    # Acrylic = 1, Aluminum = 2, Brick = 3, Cardboard = 4, Glass = 5, MDF = 6, Neoprene = 7, Pine = 8, Porcelain = 9, Rubber = 10, Steel = 11
-    local_dataset = {'data':None, 'target':[]}
-    local_dataset['data'] = np.array(mat)
-    for i in range(np.shape(local_dataset['data'])[0]):
-        local_dataset['target'].append(1 if (i < 500) else 2 if (i >= 500 and i < 1000) else 3 if (i >= 1000 and i < 1500) else 4 if (i >= 1500 and i < 2000) else 5 if (i >= 2000 and i < 2500) else 6 if (i >= 2500 and i < 3000) else 7 if (i >= 3000 and i < 3500) else 8 if (i >= 3500 and i < 4000) else 9 if (i >= 4000 and i < 4500) else 10 if (i >= 4500 and i < 5000) else 11)
-    local_dataset['target'] = np.array(local_dataset['target'])
-    return local_dataset
+plt_path = "../simulation_data_plots"
+matpath = "../simulation_confusion_mats"
+matsize = 21
+datapath = "../simulated_sensor_data"
+num_folds = 3
+total_time = [0.5, 1.0, 2.0, 5.0, 10.0]
+MAX_TIME = max(total_time)
+if not os.path.exists(plt_path):
+    os.makedirs(plt_path)
+for i in total_time:
+    if not os.path.exists(os.path.join(plt_path,'%0.2f' % i)):
+        os.makedirs(os.path.join(plt_path,'%0.2f' % i))
+
+
+def create_dataset(mat, index, t_sens, t_amb, noise, dataset):
+    for i in range(0, len(mat)):
+        key = (t_sens, t_amb, noise)
+        if key not in dataset:
+            dataset[key] = {'data': [], 'target': []}
+        dataset[key]['data'] += [np.array(mat[i])]
+        dataset[key]['target'] += [index]
 
 def run_pca(dataset):
     pca = decomposition.PCA(n_components=10)
@@ -42,12 +51,25 @@ def run_pca(dataset):
     dataset['data'] = reduced_mat
     return dataset
 
-def run_crossvalidation(data_dict, categories, folds):
-    data_dict = run_pca(data_dict)
-    skf = StratifiedKFold(data_dict['target'], n_folds=folds)
-    confusion_matrix_final = np.zeros((np.size(categories), np.size(categories)))
+def run_crossvalidation(mat, key, data_dict, folds, total_time):
+    t_sens, t_amb, noise = key
+
+    d = run_pca(data_dict)
+    skf = StratifiedKFold(d['target'], n_folds=folds, shuffle=True)
+    confusion_matrix_final = np.zeros((matsize, matsize))
+
     for train, test in skf:
-        X_train, X_test, y_train, y_test = data_dict['data'][train], data_dict['data'][test], data_dict['target'][train], data_dict['target'][test]
+        X_train = []
+        X_test = []
+        y_train = []
+        y_test = []
+        for t in train:
+            X_train.append(d['data'][t])
+            y_train.append(d['target'][t])
+        for t in test:
+            X_test.append(d['data'][t])
+            y_test.append(d['target'][t])
+
         svc = svm.SVC(kernel='linear')
         #svc = svm.SVC(kernel='rbf')
         #svc = svm.SVC(kernel='poly', degree=3)
@@ -62,11 +84,15 @@ def run_crossvalidation(data_dict, categories, folds):
         confusion_matrix_final = confusion_matrix_final + cm
     # Show confusion matrix in a separate window
 	pp.matshow(confusion_matrix_final)
-	pp.title('Confusion matrix')
+	pp.title('Confusion matrix\n t_sens = %s, t_amb = %s\nnoise = %s, total_time = %.2f' %(t_sens, t_amb, noise, total_time))
 	pp.colorbar()
 	pp.ylabel('True label')
 	pp.xlabel('Predicted label')
-	pp.show()
+	#pp.show()
+    pp.savefig('%s/%.2f/%s_%s_%s_%.2f.png' %(plt_path, total_time, t_sens, t_amb, noise, total_time))
+    pp.close()
+    matrices[key] = confusion_matrix_final
+
 
 def run_crossvalidation_new(data_dict, categories, folds):
     data_dict = run_pca(data_dict)
@@ -80,23 +106,43 @@ def run_crossvalidation_new(data_dict, categories, folds):
 
 if __name__ == '__main__':
 
-    p = optparse.OptionParser()
-    p.add_option('--raw', action='store_true', dest='raw', help='use raw features')
-    p.add_option('--raw_slope', action='store_true', dest='raw_slope', help='use raw and slope features')
+    datatags = {}
+    for f in os.listdir(datapath):
+        try:
+            if f.endswith(".pkl"):
+                info = f[:-4].split('_', 4)
+                index = int(info[0])
+                t_sens = info[1]
+                t_amb = info[2]
+                noise = info[4]
+                key = (t_sens, t_amb, noise)
 
-    opt, args = p.parse_args()
+                if key in datatags:
+                    datatags[key].append(f)
+                else:
+                    datatags[key] = [f]
 
-    if opt.raw:
-        input_Fmat = np.array(Fmat_original)[:,0:500].tolist()
-    elif opt.raw_slope:
-        input_Fmat = Fmat_original
-    else:
-        sys.exit("Please specify --raw or --raw_slope")
+        except:
+            continue
 
-    categories = ['Acrylic', 'Aluminum', 'Brick', 'Cardboard', 'Glass', 'MDF', 'Neoprene', 'Pine', 'Porcelain', 'Rubber', 'Steel']
-    num_folds = 3
-    #print np.shape(input_Fmat)
-    dataset = {}
-    dataset = create_dataset(input_Fmat, categories)
-    run_crossvalidation(dataset, categories, num_folds)
-    run_crossvalidation_new(dataset, categories, num_folds)
+
+    for t in total_time:
+        matrices = {}
+        for k in datatags:
+            temp_data = {'data':[], 'target':[]}
+            for fname in datatags[k]:
+                dataVec = util.load_pickle(os.path.join(datapath, fname))
+                for trial in dataVec:
+                    temp, slope = trial
+                    length = len(temp)
+                    temp = temp[:int(t*length/MAX_TIME)]
+                    slope = slope[:int(t*length/MAX_TIME)]
+                    slope[-1] = 0
+                    temp_data['data'].append(temp + slope)
+                    temp_data['target'].append(fname.split('_',1)[0])
+
+            run_crossvalidation(matrices, k, temp_data, num_folds, t)
+        util.save_pickle(matrices, os.path.join(matpath, 'confusion_matrices_%.2f.pkl' %t))
+    #run_crossvalidation_new(dataset, categories, num_folds)
+
+
