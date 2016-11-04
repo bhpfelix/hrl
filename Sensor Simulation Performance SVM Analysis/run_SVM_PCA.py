@@ -24,10 +24,11 @@ import sys
 
 plt_path = "../simulation_data_plots"
 matpath = "../simulation_confusion_mats"
-matsize = 21
+matsize = 420
 datapath = "../simulated_sensor_data"
+exp = 20
 num_folds = 3
-total_time = [0.5, 1.0, 2.0, 5.0, 10.0]
+total_time = [0.25, 0.5, 1.0, 1.5, 2, 3.5]
 MAX_TIME = max(total_time)
 if not os.path.exists(plt_path):
     os.makedirs(plt_path)
@@ -45,7 +46,8 @@ def create_dataset(mat, index, t_sens, t_amb, noise, dataset):
         dataset[key]['target'] += [index]
 
 def run_pca(dataset):
-    pca = decomposition.PCA(n_components=10)
+    # pca = decomposition.PCA(n_components=10)
+    pca = decomposition.PCA()
     pca.fit(dataset['data'])
     reduced_mat = pca.transform(dataset['data'])
     dataset['data'] = reduced_mat
@@ -53,7 +55,9 @@ def run_pca(dataset):
 
 def run_crossvalidation(mat, key, data_dict, folds, total_time):
     t_sens, t_amb, noise = key
+    mat_key = (t_sens, t_amb, noise, total_time)
 
+    print 'Run PCA'
     d = run_pca(data_dict)
     skf = StratifiedKFold(d['target'], n_folds=folds, shuffle=True)
     confusion_matrix_final = np.zeros((matsize, matsize))
@@ -70,6 +74,7 @@ def run_crossvalidation(mat, key, data_dict, folds, total_time):
             X_test.append(d['data'][t])
             y_test.append(d['target'][t])
 
+        print 'Training'
         svc = svm.SVC(kernel='linear')
         #svc = svm.SVC(kernel='rbf')
         #svc = svm.SVC(kernel='poly', degree=3)
@@ -91,7 +96,7 @@ def run_crossvalidation(mat, key, data_dict, folds, total_time):
 	#pp.show()
     pp.savefig('%s/%.2f/%s_%s_%s_%.2f.png' %(plt_path, total_time, t_sens, t_amb, noise, total_time))
     pp.close()
-    matrices[key] = confusion_matrix_final
+    matrices[mat_key] = confusion_matrix_final
 
 
 def run_crossvalidation_new(data_dict, categories, folds):
@@ -108,41 +113,31 @@ if __name__ == '__main__':
 
     datatags = {}
     for f in os.listdir(datapath):
-        try:
-            if f.endswith(".pkl"):
-                info = f[:-4].split('_', 4)
-                index = int(info[0])
-                t_sens = info[1]
-                t_amb = info[2]
-                noise = info[4]
-                key = (t_sens, t_amb, noise)
+        if f.endswith(".pkl"):
+            t_sens, t_amb, noise = f[:-4].split('_')
+            key = (t_sens, t_amb, noise)
 
-                if key in datatags:
-                    datatags[key].append(f)
-                else:
-                    datatags[key] = [f]
-
-        except:
-            continue
-
+            if key in datatags:
+                datatags[key].append(f)
+            else:
+                datatags[key] = [f]
 
     for t in total_time:
+        print 'Iterating through time %.2f' % t
         matrices = {}
         for k in datatags:
+            print 'Iterating through model %s' % str(k)
             temp_data = {'data':[], 'target':[]}
             for fname in datatags[k]:
                 dataVec = util.load_pickle(os.path.join(datapath, fname))
-                for trial in dataVec:
-                    temp, slope = trial
+                for pos,fvec in enumerate(dataVec):
+                    temp, slope = fvec
                     length = len(temp)
                     temp = temp[:int(t*length/MAX_TIME)]
                     slope = slope[:int(t*length/MAX_TIME)]
                     slope[-1] = 0
                     temp_data['data'].append(temp + slope)
-                    temp_data['target'].append(fname.split('_',1)[0])
+                    temp_data['target'].append(str(int(pos/exp)))
 
             run_crossvalidation(matrices, k, temp_data, num_folds, t)
         util.save_pickle(matrices, os.path.join(matpath, 'confusion_matrices_%.2f.pkl' %t))
-    #run_crossvalidation_new(dataset, categories, num_folds)
-
-

@@ -11,8 +11,8 @@ import util
 import os
 from forward_model import *
 
-# ppp = util.load_pickle('data/0_308.15_298.15_0.005_0.001.pkl')
-# print np.array(ppp).shape
+ppp = util.load_pickle('../simulated_sensor_data/303.15_298.15_0.1.pkl')
+print np.array(ppp).shape
 
 # total_time = 10
 # sampling_time = 0.005
@@ -36,19 +36,6 @@ from forward_model import *
 dic = {'one':1, 'two':2}
 print bool('two' in dic)
 
-print "1_2_3_4".split('_', 1)
+print "1_2_3_4.pkl".split('_')
 
-datapath = "../simulated_sensor_data"
-fname = '0_303.15_298.15_0.005_0.01.pkl'
-
-data = util.load_pickle(os.path.join(datapath, fname))
-
-print len(data)
-print len(data[0])
-print len(data[0][0])
-print type(data[0][0][0])
-
-for trial in data:
-    temp, slope = trial
-    print len(temp)
-    print len(temp+slope)
+print sorted([1+2*np.random.rand() for _ in range(100)])
