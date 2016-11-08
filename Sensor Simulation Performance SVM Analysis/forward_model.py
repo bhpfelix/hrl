@@ -60,18 +60,22 @@ class model_temperature:
 
 if __name__ == '__main__':
 
-	total_time = 10
+	total_time = 20
 	sampling_time = 0.001
 	#from identify_sensor_parameters import k_sens, alpha_sens
 	k_sens = 0.0349
 	alpha_sens = 2.796*10**(-9)
 	t_sens_0 = 30
 	t_amb = 25
-	k_obj = 0.15
-	alpha_obj = 0.15/(440.*1660.)
-	noise = 10 #Percent
+	k_obj1 = 70
+	k_obj2 = 90
+	alpha_obj = 1.
+	noise = 0.1 #Percent
 
-	temp_models = model_temperature(t_sens_0, t_amb, total_time, sampling_time, k_sens, alpha_sens, k_obj, alpha_obj, noise)
+	temp_models = model_temperature(t_sens_0, t_amb, total_time, sampling_time, k_sens, alpha_sens, k_obj1, alpha_obj, noise)
 	temp_models.visualize_temp()
+
+	temp_models2 = model_temperature(t_sens_0, t_amb, total_time, sampling_time, k_sens, alpha_sens, k_obj2, alpha_obj, noise)
+	temp_models2.visualize_temp()
 
 	pp.show()

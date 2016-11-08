@@ -28,7 +28,8 @@ def plot_accuracy(matrix, size_list):
 
 if __name__ == '__main__':
 	matpath = "../simulation_confusion_mats"
-	size_list = [420, 210, 105, 70, 42, 35, 30, 21, 15, 14, 10]
+	matsize = 420
+	size_list = [i for i in range(1,matsize+1) if matsize/i == matsize/(i-0.0)]
 	MIN_E = 0.089553894
 	MAX_E = 107.8818103
 

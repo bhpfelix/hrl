@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import matplotlib
 import numpy as np
 import matplotlib.pyplot as pp
@@ -23,11 +25,10 @@ data_path = '../simulated_sensor_data/'
 min_e = 0.089553894 #Rigid Polymer Foam
 max_e = 107.8818103 #Copper
 intervals_e = 420
-delta_e = (max_e - min_e)/intervals_e
 e_list = np.linspace(min_e, max_e, intervals_e)
 
 ### For Sensor Model
-total_time = [0.25, 0.5, 1.0, 1.5, 2, 3.5]
+total_time = [0.25, 0.5, 1.0, 1.5, 2, 3.5, 8]
 sampling_time = 0.005
 k_sens = 0.0349
 alpha_sens = 2.796*10**(-9)
@@ -53,31 +54,33 @@ temp_models = [model_temperature(ts+ta, ta, max(total_time), sampling_time, k_se
                     for n in noise]
 
 for ind, model in enumerate(temp_models):
-    print 'Iterating through model %s/%s' % (ind＋1, len(temp_models))
+    print 'Iterating through model %s/%s' % (ind+1, len(temp_models))
 
-    widgets = [Bar('>'), ' ', ETA(), ' ', ReverseBar('<')]
-    pbar = ProgressBar(widgets=widgets, maxval=len(e_list)).start()
+    for trial in range(exps):
+        print 'Iterating through trial %s/%s' % (trial+1, exps)
 
-    Fmat = []
-    for i, e in enumerate(e_list):
-        # print 'Trial #%s' % trial
-        # e_min, e_max = e_range
-        # e = e_min + (e_max-e_min) * np.random.rand()
+        widgets = [Bar('>'), ' ', ETA(), ' ', ReverseBar('<')]
+        pbar = ProgressBar(widgets=widgets, maxval=len(e_list)).start()
 
-        model.set_attr('k_obj',e)
+        Fmat = []
+        for i, e in enumerate(e_list):
+            model.set_attr('k_obj',e)
 
-        for trial in range(exps):
             result = model.run_simulation()
             Fvec = feature_vector_diff(result)
             Fmat.append(Fvec)
 
-        pbar.update(i)
+            pbar.update(i)
 
-    pbar.finish()
-    print
 
-    fname = '%s_%s_%s.pkl' % (model.t_sens_0,
-                                    model.t_ambient,
-                                    model.noise)
-    print 'Saving Data'
-    util.save_pickle(Fmat, os.path.join(data_path, fname))
+        fname = '%s_%s_%s_%s.pkl' % (str(trial).zfill(3),
+                                model.t_sens_0,
+                                model.t_ambient,
+                                model.noise)
+
+        pbar.finish()
+        print
+
+        print 'Saving Data'
+        util.save_pickle(Fmat, os.path.join(data_path, fname))
+
