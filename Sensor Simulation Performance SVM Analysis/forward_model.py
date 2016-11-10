@@ -20,7 +20,7 @@ class model_temperature:
 		self.k_obj = k_obj
 		self.alpha_obj = alpha_obj
 
-		self.noise = noise / 100.
+		self.noise = noise
 
 		self.temp_list = []
 
@@ -36,7 +36,10 @@ class model_temperature:
 		time_list = np.arange(0.01,self.total_time,self.sampling_time)
 		for ts in time_list:
 			self.temp_list.append(self.t_sens_0 + (t_surf - self.t_sens_0)*math.erfc(self.x/(2*math.sqrt(self.alpha_sens*ts))))
-		self.temp_list = self.temp_list + np.random.normal(0,self.noise,len(self.temp_list))
+
+		if self.noise != 0:
+			self.temp_list = self.temp_list + np.random.normal(0,self.noise,len(self.temp_list))
+
 		return time_list, self.temp_list
 
 	def visualize_temp(self, time=None, data=None):
@@ -70,7 +73,7 @@ if __name__ == '__main__':
 	k_obj1 = 70
 	k_obj2 = 90
 	alpha_obj = 1.
-	noise = 0.1 #Percent
+	noise = 0.01 #Percent
 
 	temp_models = model_temperature(t_sens_0, t_amb, total_time, sampling_time, k_sens, alpha_sens, k_obj1, alpha_obj, noise)
 	temp_models.visualize_temp()

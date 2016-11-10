@@ -30,7 +30,7 @@ pred_path = "../predictions"
 matsize = 420
 exp = 20
 num_folds = 3
-total_time = [1.0, 2.4, 3.8, 5.2, 6.6, 8]
+total_time = [0.25, 0.5, 1.0, 2.0, 4.0]
 MAX_TIME = max(total_time)
 
 if not os.path.exists(mat_path):

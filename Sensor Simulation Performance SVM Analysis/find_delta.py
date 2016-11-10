@@ -80,12 +80,15 @@ if __name__ == '__main__':
 
     for model in models:
         fig, ax = plt.subplots()
-        plt.title("t_amb = %s, t_sens_0 = %s, noise = %s" % (model[0], model[1], model[2]))
-        plt.xlabel('e')
-        plt.ylabel('delta_e')
+        plt.title("t_sens_0 = %s, t_amb = %s, noise = %s" % (model[0], model[1], model[2]))
+        plt.xlabel('time')
+        plt.ylabel('avg_delta_e')
         ymin = 0
         ymax = 0
 
+        _X = []
+        _Y = []
+        _ymin, _ymax = 420, 0
         for time in times:
             delta_e = [[430] for _ in range(matsize)]
             for fac in resize_factors:
@@ -104,18 +107,37 @@ if __name__ == '__main__':
                 X.append(ind*e_factor)
                 Y.append(min(l))
 
-            ax.plot(X, Y, color=c_dic[time], label = str(time) + 's')
+            # Plot horizontal diffs
+            # ax.plot(X, Y, color=c_dic[time], label = str(time) + 's')
 
             ymax = max(ymax, max(Y))
 
-        ymax = ymax + (ymax-ymin)*0.1
-        plt.gca().set_ylim([ymin, ymax])
+            _mean = np.mean(Y)
+            _ymin = min(_ymin, _mean)
+            _ymax = max(_ymax, _mean)
+            _X.append(float(time))
+            _Y.append(_mean)
 
-        handles, labels = ax.get_legend_handles_labels()
-        # sort both labels and handles by labels
-        labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0]))
-        ax.legend(handles, labels, loc='upper right', shadow=True)
 
-        plt.savefig("%s/%s_%s_%s.png" % (pltpath, model[0], model[1], model[2]))
+        # ymax = ymax + (ymax-ymin)*0.1
+        # plt.gca().set_ylim([ymin, ymax])
+
+        # handles, labels = ax.get_legend_handles_labels()
+        # # sort both labels and handles by labels
+        # labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0]))
+        # ax.legend(handles, labels, loc='upper right', shadow=True)
+
+        _X, _Y = zip(*sorted(zip(_X, _Y), key=lambda item: item[0]))
+        ax.plot(_X, _Y, color='g', marker='o', linewidth=2.0)
+
+        _ymin = _ymin - (_ymax-_ymin)*0.1
+        _ymax = _ymax + (_ymax-_ymin)*0.1
+        if _ymin == _ymax:
+            _ymin -= 10
+            _ymax += 10
+        plt.gca().set_ylim([_ymin, _ymax])
+        plt.gca().set_xlim([0, 9])
+
+        plt.savefig("%s/t_%s_%s_%s.png" % (pltpath, model[0], model[1], model[2]))
 
     plt.show()

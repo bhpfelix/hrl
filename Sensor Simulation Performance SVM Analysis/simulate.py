@@ -24,19 +24,19 @@ data_path = '../simulated_sensor_data/'
 ### For Effusivity Data Generation
 min_e = 0.089553894 #Rigid Polymer Foam
 max_e = 107.8818103 #Copper
-intervals_e = 420
+intervals_e = 500
 e_list = np.linspace(min_e, max_e, intervals_e)
 
 ### For Sensor Model
-total_time = [0.25, 0.5, 1.0, 1.5, 2, 3.5, 8]
+total_time = [0.25, 0.5, 1.0, 2, 4]
 sampling_time = 0.005
 k_sens = 0.0349
 alpha_sens = 2.796*10**(-9)
 t_sens_0 = [5, 10]
-t_amb = [25, 30]
+t_amb = [25]
 k_obj = None # Value assigned later through sampling
 alpha_obj = 1 # Given alpha_obj = 1, effusivity = k_obj/sqrt(alpha_obj) = k_obj
-noise = [0.1, 1, 5, 10]
+noise = [0, 0.01, 0.05, 0.1]
 
 ### For Simulated Experiment
 exps = 20
